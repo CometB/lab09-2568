@@ -47,7 +47,7 @@ export default function TaskCard({
               className="btn btn-success me-2"
               onClick={toggleDoneBtnOnClick}
             >
-              Done
+              Done{isDone ? 1:0}
             </button>
           </div>
           <div className="col-xs-3 col-sm-3 col-md-3 col-lg-2">
